@@ -2812,10 +2812,5 @@ function RebelButton({ text, onClick }) {
     return (React.createElement("button", { onClick: handleOnClick }, text ? text : 'Rebel Button'));
 }
 
-var index = /*#__PURE__*/Object.freeze({
-	__proto__: null,
-	RebelButton: RebelButton
-});
-
-exports.Components = index;
+exports.RebelButton = RebelButton;
 //# sourceMappingURL=index.js.map
