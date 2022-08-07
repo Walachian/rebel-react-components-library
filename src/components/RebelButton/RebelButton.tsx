@@ -1,4 +1,5 @@
 import React from 'react'
+import './RebelButton.css'
 
 type RebelButtonProps = {
     text?: string,
@@ -12,7 +13,7 @@ function RebelButton({text, onClick}: RebelButtonProps) {
     }
 
   return (
-    <button onClick={handleOnClick}>{text ? text : 'Rebel Button'}</button>
+    <button className='rebel-button' onClick={handleOnClick}>{text ? text : 'Rebel Button'}</button>
   )
 }
 
