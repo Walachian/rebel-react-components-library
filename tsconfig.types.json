@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist/esm/types",
+    "emitDeclarationOnly": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+  }
+}
