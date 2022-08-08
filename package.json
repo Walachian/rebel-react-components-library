@@ -1,6 +1,6 @@
 {
   "name": "@ovideliu/rebel-react-components-library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Testing an implementation of a react component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,7 +9,7 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rollup -c && tsc --project tsconfig.types.json",
+    "rollup": "rollup -c && tsc --project tsconfig.types.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "OviDeliu",
